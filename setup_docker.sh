@@ -12,5 +12,5 @@ sudo systemctl enable docker
 docker --version
 
 # Build and run Docker container
-docker build -t switchyourcase .
-docker run -p 3000:3000 switchyourcase
+docker build -t e-commerce-dev .
+docker run -p 3000:3000 e-commerce-dev
